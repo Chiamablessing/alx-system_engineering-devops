@@ -1,2 +1,2 @@
 #!/bin/bash
-user="MyUser"; echo "hello $user"
+echo "hello $USER"
