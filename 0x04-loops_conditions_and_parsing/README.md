@@ -1,6 +1,6 @@
 # 0x04. Loops, conditions and parsing
 
-This project work on Devops, Shell, Bash and Scripting.
+This project works on **Devops**, **Shell**, **Bash** and **Scripting**.
 
 Focusing on loops and conditional statements in Bash.
 At the end of the project, am able to understand and explain the folowing concepts.
