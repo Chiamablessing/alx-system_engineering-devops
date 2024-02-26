@@ -3,9 +3,5 @@
 # where only the part of the name after the first dash is displayed e.g. 8-for_ls -> for_ls.
 # do not display hidden files
 for file in *; do
-    # Check if the file name contains a dash
-    if [[ "$file" == *-* ]]; then
-        # If yes, split the string by the delimiter '-' and print the second field
-        echo "$file" | cut -d '-' -f 2
-    fi
+    echo "$file" | cut -d '-' -f 2 # split the string by the delimiter '-' and print the second field
 done
